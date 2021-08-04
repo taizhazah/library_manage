@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'rvqqgndkj0b9ewcklp&e%*ef15gh(0cye#)-**l0*bnqcki6+='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': "book",   # 数据名
         'USER': "root",     # 用户名
-        'PASSWORD': "**********",
+        'PASSWORD': "********",
         'HOST': "127.0.0.1", # 域名
         'PORT': "3306",		# 一般是默认的
     }
