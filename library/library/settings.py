@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': "book",   # 数据名
         'USER': "root",     # 用户名
-        'PASSWORD': "663666",
+        'PASSWORD': "**********",
         'HOST': "127.0.0.1", # 域名
         'PORT': "3306",		# 一般是默认的
     }
